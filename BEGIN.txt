@@ -1,0 +1,15 @@
+BEGIN
+  INPUT score
+  IF score >= 70 THEN
+    grade = 'A'
+  ELSE IF score >= 60 THEN
+    grade = 'B'
+  ELSE IF score >= 50 THEN
+    grade = 'C'
+  ELSE IF score >= 40 THEN
+    grade = 'D'
+  ELSE
+    grade = 'F'
+  ENDIF
+  DISPLAY "Your grade is", grade
+END
